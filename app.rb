@@ -14,6 +14,5 @@ class App < Sinatra::Base
     "#{params[:number].times do
       params[:phrase]
     end}"
-    end
   end
 end
