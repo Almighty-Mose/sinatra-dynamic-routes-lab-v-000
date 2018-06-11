@@ -33,7 +33,7 @@ class App < Sinatra::Base
     elsif @operation == "multiply"
       "#{@num1 * @num2}"
     elsif @operation == "divide"
-      "#{@num1 % @num2}"
+      "#{@num1 / @num2}"
     else
       "Nope!"
     end
